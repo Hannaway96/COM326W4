@@ -21,14 +21,12 @@ void Module::setModuleCode(std::string code) {
 	moduleCode_ = code;
 }
 
-
 int Module::getModuleMark() const {
 	return moduleMark_;
 }
 void Module::setModuleMark(int mark) {
 	moduleMark_ = mark;
-};
-
+}
 
 int  Module::getModuleCreditPoints() const {
 	return moduleCreditPoints_;
